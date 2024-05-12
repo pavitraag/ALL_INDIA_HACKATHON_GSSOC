@@ -32,14 +32,25 @@ CCTV cameras detecting a crime scene and immediately transmitting a signal, alon
 7. **Data Storage and Management:** The CCTV system requires storage infrastructure to store the captured video footage for review and potential evidence. This can involve on-site or cloud-based storage solutions, depending on the scale and requirements of the system.
 
 **Tech Stack:**
+
 1.**TensorFlow**: Deep learning framework used for building and training neural network models.
+
 2.**OpenCV**: Library employed for video processing tasks such as frame extraction and augmentation.
+
 3.**Imageio**: Utilized for reading and writing video files.
+
 4.**Imgaug**: Library for image augmentation techniques used to enhance model robustness.
+
 5.**NumPy**: Fundamental library for numerical computing, utilized for handling image data.
+
 6.**Scikit-learn**: Employed for data preprocessing tasks such as train-test splitting and stratified sampling.
+
 7.**Keras**: High-level neural networks API used for building and training deep learning models.
+
 8.**Matplotlib**: Library used for data visualization, including plotting training/validation curves.
+
 9.**MobileNetV2**: Pre-trained convolutional neural network architecture used as a base model for feature extraction.
+
 10.**TPU Strategy**: Tensor Processing Unit (TPU) strategy used for distributed training when available, enhancing training speed and efficiency.
+
 11.**Seaborn**: Python visualization library based on matplotlib used for creating visually appealing statistical graphics, including heatmaps.
