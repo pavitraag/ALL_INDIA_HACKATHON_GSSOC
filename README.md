@@ -4,6 +4,9 @@
 
 The idea of employing surveillance cameras to detect harassment against women on roads and promptly provide location information to law enforcement arises from the urgent necessity to combat gender-based violence and ensure the safety of women in public spaces. Harassment and assault against women in public areas are pervasive issues in many societies, causing physical and psychological harm, limiting women's freedom of movement, and perpetuating gender inequality. While the implementation of surveillance camera systems has become increasingly common in urban environments to enhance public safety and crime prevention, their potential to specifically address gender-based violence has not been fully explored. By leveraging computer vision and machine learning technologies, it is possible to develop intelligent systems that can actively detect and respond to instances of harassment, thereby creating a safer environment for women.
 
+#### Objective:
+The main goal of this project is to use surveillance cameras to make public spaces safer for women by quickly detecting and responding to instances of harassment or violence. By using advanced technology, such as facial recognition and location tracking, we aim to help law enforcement authorities intervene faster and prevent gender-based violence.
+
 #### Innovative Solution:
 
 CCTV cameras detecting a crime scene and immediately transmitting a signal, along with location information, to the police. This concept builds upon the previous explanation, with added emphasis on transmitting location details to enhance the effectiveness of law enforcement response. Here is an expanded overview:
@@ -30,27 +33,3 @@ CCTV cameras detecting a crime scene and immediately transmitting a signal, alon
 	- Computer-Aided Dispatch (CAD) Systems: The CCTV system can interface with CAD systems used by the police to receive and manage emergency calls and incidents.
 	- Geographic Information Systems (GIS): Integrating with GIS platforms allows for mapping and visualization of crime locations and optimal route planning for police dispatch.
 7. **Data Storage and Management:** The CCTV system requires storage infrastructure to store the captured video footage for review and potential evidence. This can involve on-site or cloud-based storage solutions, depending on the scale and requirements of the system.
-
-**Tech Stack:**
-
-1.**TensorFlow**: Deep learning framework used for building and training neural network models.
-
-2.**OpenCV**: Library employed for video processing tasks such as frame extraction and augmentation.
-
-3.**Imageio**: Utilized for reading and writing video files.
-
-4.**Imgaug**: Library for image augmentation techniques used to enhance model robustness.
-
-5.**NumPy**: Fundamental library for numerical computing, utilized for handling image data.
-
-6.**Scikit-learn**: Employed for data preprocessing tasks such as train-test splitting and stratified sampling.
-
-7.**Keras**: High-level neural networks API used for building and training deep learning models.
-
-8.**Matplotlib**: Library used for data visualization, including plotting training/validation curves.
-
-9.**MobileNetV2**: Pre-trained convolutional neural network architecture used as a base model for feature extraction.
-
-10.**TPU Strategy**: Tensor Processing Unit (TPU) strategy used for distributed training when available, enhancing training speed and efficiency.
-
-11.**Seaborn**: Python visualization library based on matplotlib used for creating visually appealing statistical graphics, including heatmaps.
